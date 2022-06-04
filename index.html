@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+            background-color: #222;
+        }
+        section {
+            margin: auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            height: 450px;
+        }
+        h1 {
+            color: #fff;
+            text-align: center;
+        }
+        button {
+            font-size: larger;
+            background-color: #00a2ff;
+            border: none;
+            color: #fff;
+            border-radius: 18px;
+            padding: 3px;
+            cursor: pointer;
+            margin-left: 150px;
+            margin-top: 50px;
+            width: 175px;
+            text-align: center;
+            transition: ease-in;
+        }
+        button:hover {
+            background-color: #0070b1;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>ROBLOX NÃO QUER QUE VOCÊ SAIBA DISSO!</h1>
+    <section>
+        <div>
+            <p><h2>Acesse o segredo agora!</h2></p>
+            <p><button id="criar">Acessar</button></p>
+            <audio src="./amogus.mp3"></audio>
+        </div>
+    </section>
+    <script>
+        function CriarJ() {
+          const url = 'https://www.youtube.com/watch?v=GBIIQ0kP15E'
+          
+            var janela = window.open(url, '_blank', 'width=300', 'height=300', 'top=300', 'left=300')
+            janela.focus()
+            document.querySelector('audio').play()
+        }
+
+        window.document.getElementById('criar').addEventListener('click', CriarJ)
+    </script>
+</body>
+</html>
